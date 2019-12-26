@@ -12,11 +12,15 @@ gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 4.0'
+gem 'webpacker', '~> 4.2.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'babel' 
+
+
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -44,3 +48,10 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+
+gem 'bootstrap', '~> 4.4.1'
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'uglifier', '>= 1.3.0'
+gem 'bootstrap-sass', '~>3.3.6'

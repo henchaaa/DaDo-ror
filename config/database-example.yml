@@ -90,8 +90,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: hello_world_production
-  username: hello_world
-  password: <%= ENV['HELLO_WORLD_DATABASE_PASSWORD'] %>
+#production:
+ # <<: *default
+  #database: hello_world_production
+  #username: hello_world
+  #password: <%= ENV['HELLO_WORLD_DATABASE_PASSWORD'] %>
