@@ -25,7 +25,6 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "pry-rails", ">= 0.3.9"
 end
 
@@ -38,9 +37,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :test do 
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem "rspec-rails" #,   ">= 0.3.9"
+group :test do
+  gem "rspec-rails"#,   ">= 0.3.9"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
